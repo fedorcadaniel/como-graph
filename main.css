@@ -1,0 +1,87 @@
+
+/*color combinations
+#CDE9D6 - verde 
+#D2E4FD - albastru
+#FFF1CB - galben
+#F8D3CF - rosu
+*/
+
+body {
+    background-color: #fff;
+    margin: 0px;
+}
+
+/* header */
+
+ul {
+    list-style: none;
+    padding-inline-start: 0px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+li {
+    float: left;
+    margin: 5px;
+}
+
+li:hover {
+    background-color: red;
+}
+
+li a {
+    text-decoration: none;
+
+}
+.header {
+    background-color: #D2E4FD;
+    height: 40px;
+    margin-bottom : 10px;
+    box-shadow: 5px 0px 5px rgba(10, 10, 10, 0.7);   
+}
+
+.hamburger-slice {
+    display: block;
+    width: 30px;
+    height: 5px;
+    margin: 2px;
+    background-color: #333;
+    border-radius: 3px;
+}
+
+/*grid*/
+#text {
+    color: white;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 300px;
+    grid-row-gap: 5px;
+    grid-column-gap: 5px;
+    
+}
+
+@media screen and (max-width: 850px){
+    .container {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .container {
+        grid-template-columns: 1fr;
+    }
+}
+
+.colored {
+    background-color: #FFF1CB;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 5px 5px 5px rgba(50, 50, 50, 0.7);
+    
+}
+
+span {
+    background-color: #F8D3CF;
+}

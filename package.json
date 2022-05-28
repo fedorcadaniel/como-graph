@@ -1,0 +1,12 @@
+{
+  "name": "application",
+  "version": "0.0.1",
+  "description": "My ultimate app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Fedorca Daniel",
+  "license": "MIT"
+}
